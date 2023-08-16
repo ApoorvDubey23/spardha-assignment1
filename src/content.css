@@ -1,0 +1,48 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+   
+    font-family: cursive;
+}
+.spardha{
+    font-size: 3rem;
+    margin: 5vh;
+}
+.midbody{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px  black;
+    width: 45vw;
+    height:50vh ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.451);
+    
+}
+.body img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+height: 100vh;
+width: 100vw;
+z-index: -1;
+}
+
+.midbody button{
+    margin: 3vh 3vw 3vh 3vw;
+    padding: 1vh ;
+    border: 1px solid grey;
+ width: 20vw;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition-duration: 0.7s;
+}
+.midbody button:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 3px black;
+
+}

@@ -1,0 +1,74 @@
+.main{font-family: 'Baloo 2', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 1.2rem;
+}
+video{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    object-fit: cover;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    width: 70vh;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+   
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.head{
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    font-family: monospace;
+}
+.login  div{
+    width: 100%;
+    margin: 5vh 0vh 5vh 0vh;
+
+}
+.btn{background-color: green;
+color: white;
+font-size: 1.2rem;
+padding: 1vh 4vh;}
+.btn:hover{
+    border: 1px solid white;
+}
+
+.logo{
+    position: absolute;
+    top: 1vh;
+    left: 1vh;
+    color: white;
+    font-weight: 200;
+}
+.signuplnk{
+    font-family:cursive;
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+  
+}
+.lock{
+    height: 20px;
+    margin-top: -1vh;
+}
+.last1{
+    align-self: center;
+}
